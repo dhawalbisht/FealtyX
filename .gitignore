@@ -1,0 +1,37 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Editor specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+*.coveragerc
+
+# Flask specific
+instance/
+*.db
+
+# Dependency directories
+node_modules/
+
+# Pytest cache
+.cache/
+
+# Ignore other files that should not be tracked
+*.bak
+*.swp
